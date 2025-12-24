@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import TechItems from "../../TechItems/TechItems";
+import TechItems from "../TechItems/TechItems";
+import LandingPage from "../LandingPage/LandingPage"
 
 const MenuBtn = () => {
   const [displayTechItems, setDisplayTechItems] = useState("");
@@ -35,7 +36,7 @@ const MenuBtn = () => {
       })}
       {
         isSelected ? <TechItems/>
-        : "Nothing"
+        : <LandingPage/>
       }
     </>
   );

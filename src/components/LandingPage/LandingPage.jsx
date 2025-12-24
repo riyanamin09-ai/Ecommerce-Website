@@ -1,4 +1,4 @@
-import FirstSection from "./FirstSec/FirstSection";
+import FirstSection from "../FirstSec/FirstSection";
 import Deals from "./Deals&Offers/Deals"
 import HomeAndOutdoor from "./HomeSec/HomeAndOutdoor"
 import UserInput from "./UserInputSec/UserInput"
@@ -7,7 +7,7 @@ import ExtraServices from "./ExtraServices/ExtraServices"
 import RegionSection from "./RegionSec/RegionSection"
 import SubscribeSection from "./SubscribeSec/SubscribeSection"
 
-export const LandingPage = () => {
+ const LandingPage = () => {
 
     let firstLeftImgText = (
         <h2>
@@ -144,3 +144,4 @@ export const LandingPage = () => {
     </div>
   );
 };
+export default LandingPage;

@@ -3,14 +3,16 @@ import Header from "./components/Header/Header";
 
 import Footer from "./components/Footer/Footer";
 import LastSection from "./components/LastSec/LastSection";
-import { LandingPage } from "./components/LandingPage/LandingPage";
+import FirstSection from "./components/FirstSec/FirstSection";
+// import { LandingPage } from "./components/LandingPage/LandingPage";
 
 
 function App() {
   return (
     <div className="bg-blue-50">
       <Header />
-      <LandingPage />
+      <FirstSection/>
+      {/* <LandingPage /> */}
       <Footer />
       <LastSection />
     </div>
