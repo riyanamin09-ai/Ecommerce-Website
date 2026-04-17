@@ -20,7 +20,7 @@ const HeaderTop = () => {
             <FaAngleDown />
           </span>
         </p>
-        <button className="bg-[#0067FF] rounded-r-lg px-5 text-white py-1.5 border-2 border-[#0D6EFD]  ">
+        <button className="bg-[#0067FF] cursor-pointer hover:bg-blue-700 rounded-r-lg px-5 text-white py-1.5 border-2 border-[#0D6EFD]  ">
           Search
         </button>
       </div>

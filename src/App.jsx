@@ -1,18 +1,17 @@
 import "./App.css";
 import Header from "./components/Header/Header";
-
 import Footer from "./components/Footer/Footer";
 import LastSection from "./components/LastSec/LastSection";
-import FirstSection from "./components/FirstSec/FirstSection";
-// import { LandingPage } from "./components/LandingPage/LandingPage";
+import MenuBtn from "./components/LandingPage/FirstSec/MenuBtn";
+import LandingPage from "./components/LandingPage/LandingPage";
+import { Outlet } from "react-router-dom";
 
 
 function App() {
   return (
     <div className="bg-blue-50">
       <Header />
-      <FirstSection/>
-      {/* <LandingPage /> */}
+      <Outlet/>
       <Footer />
       <LastSection />
     </div>

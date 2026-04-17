@@ -5,7 +5,7 @@ import RightSection from "./RightSection";
 
 const Footer = () => {
   return (
-    <div className="px-30 flex gap-20 py-10 bg-white">
+    <div className="px-30 flex mt-5 gap-20 py-10 bg-white">
       <LeftSection />
       <CenterSection
         heading="About"

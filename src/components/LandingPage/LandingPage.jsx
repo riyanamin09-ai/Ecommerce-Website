@@ -1,4 +1,4 @@
-import FirstSection from "../FirstSec/FirstSection";
+import FirstSection from "./FirstSec/FirstSection";
 import Deals from "./Deals&Offers/Deals"
 import HomeAndOutdoor from "./HomeSec/HomeAndOutdoor"
 import UserInput from "./UserInputSec/UserInput"
