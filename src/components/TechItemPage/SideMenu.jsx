@@ -10,7 +10,7 @@ const SideMenu = (props) => {
   };
 
   return (
-    <div className="w-1/6 border-t-2 pr-3 pb-5 pt-2 bg-blue-50 border-gray-200 mr-2">
+    <div className="w-45 border-t-2 pl-2 pb-5 pt-2 bg-grey-50 border-gray-200 mr-2">
       <div className="flex justify-between items-center">
         <h2 className="text-lg font-semibold">{props.heading}</h2>
         <FaAngleDown

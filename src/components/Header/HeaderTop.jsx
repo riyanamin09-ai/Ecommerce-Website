@@ -25,19 +25,19 @@ const HeaderTop = () => {
         </button>
       </div>
       <div className="right flex gap-13 items-center">
-        <div className="flex flex-col text-[14px] text-gray-500 gap-1 w-6 justify-between items-center">
+        <div className="flex flex-col text-[14px] text-gray-500 gap-1 w-6 justify-between items-center cursor-pointer">
           <img src="src/assets/Navbar/Vector1.png" alt="" />
           <p>Profile</p>
         </div>
-        <div className="flex flex-col text-[14px] text-gray-500 gap-1  w-6 justify-between items-center">
+        <div className="flex flex-col text-[14px] text-gray-500 gap-1  w-6 justify-between items-center cursor-pointer">
           <img src="src/assets/Navbar/Vector2.png" alt="" />
           <p>Message</p>
         </div>
-        <div className="flex flex-col text-[14px] gap-1 text-gray-500  w-6 justify-between items-center">
+        <div className="flex flex-col text-[14px] gap-1 text-gray-500  w-6 justify-between items-center cursor-pointer">
           <img src="src/assets/Navbar/Vector3.png" alt="" />
           <p>Orders</p>
         </div>
-        <div className="flex flex-col text-[14px] text-gray-500 gap-1  w-6 justify-between items-center">
+        <div className="flex flex-col text-[14px] text-gray-500 gap-1  w-6 justify-between items-center cursor-pointer">
           <img src="src/assets/Navbar/Vector4.png" alt="" />
           <p>Cart</p>
         </div>

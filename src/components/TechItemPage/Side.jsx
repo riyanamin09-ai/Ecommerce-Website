@@ -34,8 +34,8 @@ const Side = () => {
   
   return (
 
-    <div className='w-full'>
-    <SideMenu heading={firstMenuCat.heading} first={firstMenuCat.buttons.first} second={firstMenuCat.buttons.second} third={firstMenuCat.buttons.third} fourth={firstMenuCat.buttons.fourth}/>
+    <div className=''>
+    <SideMenu heading={firstMenuCat.heading} first={firstMenuCat.buttons.first} second={firstMenuCat.buttons.second} third={firstMenuCat.buttons.third} fourth={firstMenuCat.buttons.fourth} radio={radio}/>
     <SideMenu heading={secondMenuCat.heading} first={secondMenuCat.buttons.first} second={secondMenuCat.buttons.second} third={secondMenuCat.buttons.third} fourth={firstMenuCat.buttons.fourth} radio={radio}/>
     <SideMenu heading={thirdMenuCat.heading} first={thirdMenuCat.buttons.first} second={thirdMenuCat.buttons.second} third={thirdMenuCat.buttons.third} fourth={thirdMenuCat.buttons.fourth} radio={radio}/>
     </div>

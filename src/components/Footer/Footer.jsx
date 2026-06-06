@@ -43,7 +43,7 @@ const Footer = () => {
         fourthText="My Orders
 "
       />
-      <RightSection/>
+      <RightSection />
     </div>
   );
 };
